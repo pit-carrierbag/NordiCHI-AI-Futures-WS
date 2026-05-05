@@ -5,198 +5,31 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Carrier Bag of HCI Workshop</title>
     <link href="./img/favicon.png" rel="icon">
-  <script type="module" crossorigin src="./assets/index-BB40plGB.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BeQEPUR9.css">
+  <script type="module" crossorigin src="./assets/index-DBWktQqL.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DfrVP7rq.css">
 </head>
 
 <body>
 <main class="pattern-vertical-lines pattern-white pattern-bg-offWhite pattern-opacity-100 bg-offWhite pattern-size-4 min-h-screen">
-    <div class="grid grid-cols-1 sm:grid-cols-3 2xl:grid-cols-6 gap-1.5 p-1.5">
-
-        <!-- The Bag -->
-        <div @click="flipped = !flipped" class="aspect-square flex items-center justify-center"
-             x-data="{ flipped: false }">
-
-            <!-- Front -->
-            <div class="w-full pattern-dots pattern-pastelRed pattern-bg-pastelRedDark pattern-opacity-100 pattern-size-32 aspect-square flex items-center justify-center rounded-sm hover:opacity-90"
-                 x-show="!flipped">
-                <div class="flex w-[95%] aspect-square border-pastelYellow border-4 border-dashed rounded-xl items-center justify-center text-center">
-                    <p class="font-needle text-[5rem] sm:text-[4rem] md:text-[5rem] text-pastelBlueExtraLight pointer-events-none select-none">
-                        The
-                        Bag</p>
-                </div>
-            </div>
-
-            <!-- Back -->
-            <div class="w-full bg-pastelRedDark aspect-square flex items-center justify-center rounded-sm"
-                 x-show="flipped">
-                <div class="flex w-[95%] aspect-square border-pastelYellow border-4 border-dashed rounded-xl items-center text-start">
-                    <p class="p-4 font-bold text-[2rem] sm:text-[0.9rem] md:text-[1.2rem] lg:text-[1.8rem] 2xl:text-[1.2rem] min-[2350px]:text-[2rem] text-pastelBlueExtraLight pointer-events-none select-none">
-                        Drawing on Le Guin, we offer a Carrier Bag Theory of HCI as a figuration for a slow disciplinary
-                        reorientation.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="hidden sm:flex aspect-square items-center justify-center"></div>
-
-        <!-- Team -->
-        <div @click="flipped = !flipped" class="aspect-square flex items-center justify-center"
-             x-data="{ flipped: false }">
-
-            <!-- Front -->
-            <div class="w-full pattern-lines pattern-pastelGreen pattern-bg-pastelGreenDark pattern-opacity-100 pattern-size-12 aspect-square flex items-center justify-center rounded-sm hover:opacity-90"
-                 x-show="!flipped">
-                <div class="flex w-[95%] aspect-square border-pastelRed border-4 border-dashed rounded-xl items-center justify-center text-center">
-                    <p class="font-home  text-[7rem] sm:text-[3rem] md:text-[5rem] lg:text-[4rem] xl:text-[4.5rem] text-white pointer-events-none select-none">
-                        Team</p>
-                </div>
-            </div>
-
-            <!-- Back -->
-            <div class="w-full bg-pastelGreenDark aspect-square flex items-center justify-center rounded-sm"
-                 x-show="flipped">
-                <div class="flex w-[95%] aspect-square border-pastelRed border-4 border-dashed rounded-xl items-center text-start">
-                    <p class="p-4 font-bold text-[2rem] sm:text-[0.9rem] md:text-[1.2rem] lg:text-[1.8rem] 2xl:text-[1.2rem] min-[2350px]:text-[2rem] text-white pointer-events-none select-none">
-                        Lea Stoeter,<br>
-                        Konstantin Lackner,<br>
-                        Goda Klumbyte,<br>
-                        Viktoria Horn,<br>
-                        Claude Draude,<br>
-                        Lisa Blaesing</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <!-- Where & When -->
-        <div @click="flipped = !flipped" class="aspect-square flex items-center justify-center"
-             x-data="{ flipped: false }">
-
-            <!-- Front -->
-            <div class="w-full pattern-rhombus pattern-pastelPurple pattern-bg-pastelPurpleLight pattern-opacity-100 pattern-size-24 aspect-square flex items-center justify-center rounded-sm hover:opacity-90"
-                 x-show="!flipped">
-                <div class="flex w-[95%] aspect-square border-pastelRed border-4 border-dashed rounded-xl items-center justify-center text-center">
-                    <p class="font-stitch text-[5rem] sm:text-[2.5rem] md:text-[3.5rem] text-pastelYellow pointer-events-none select-none">
-                        Where &
-                        When</p>
-                </div>
-            </div>
-
-            <!-- Back -->
-            <div class="w-full bg-pastelPurpleLight aspect-square flex items-center justify-center rounded-sm"
-                 x-show="flipped">
-                <div class="flex w-[95%] aspect-square border-pastelRed border-4 border-dashed rounded-xl items-center text-start">
-                    <p class="p-4 font-bold text-[2.5rem] text-pastelRedDark pointer-events-none select-none">
-                        Location and Timeslot</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <!-- Join -->
-        <div @click="flipped = !flipped" class="aspect-square flex items-center justify-center"
-             x-data="{ flipped: false }">
-
-            <!-- Front -->
-            <div class="w-full pattern-vertical-lines pattern-pastelBlueExtraLight pattern-bg-pastelBlueLight pattern-opacity-100 pattern-size-8 aspect-square flex items-center justify-center rounded-sm hover:opacity-90"
-                 x-show="!flipped">
-                <div class="flex w-[95%] aspect-square border-pastelBlueDark border-4 border-dashed rounded-xl items-center justify-center text-center">
-                    <p class="font-dashed text-[8rem] sm:text-[5rem] md:text-[7rem] text-pastelBlueDark pointer-events-none select-none">
-                        Join</p>
-                </div>
-            </div>
-
-            <!-- Back -->
-            <div class="w-full bg-pastelBlueExtraLight aspect-square flex items-center justify-center rounded-sm"
-                 x-show="flipped">
-                <div class="flex w-[95%] aspect-square border-pastelBlueDark border-4 border-dashed rounded-xl items-center text-center">
-                    <p class="p-4 font-bold text-[2.5rem] text-pastelBlueDark pointer-events-none select-none">Should
-                        be mailto</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="hidden sm:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden sm:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <div class="hidden 2xl:flex aspect-square items-center justify-center"></div>
-
-        <!-- About -->
-        <div @click="flipped = !flipped" class="aspect-square flex items-center justify-center"
-             x-data="{ flipped: false }">
-
-            <!-- Front -->
-            <div class="w-full pattern-cross pattern-pastelGreenDark pattern-bg-pastelYellow pattern-opacity-100 pattern-size-8 aspect-square flex items-center justify-center rounded-sm hover:opacity-90"
-                 x-show="!flipped">
-                <div class="flex w-[95%] aspect-square border-white border-4 border-dashed rounded-xl items-center justify-center text-center">
-                    <p class="font-needle text-[6.5rem] sm:text-[3.5rem] md:text-[4.5rem] text-pastelRed pointer-events-none select-none">
-                        About</p>
-                </div>
-            </div>
-
-            <!-- Back -->
-            <div class="w-full bg-pastelYellow aspect-square flex items-center justify-center rounded-sm"
-                 x-show="flipped">
-                <div class="flex w-[95%] aspect-square border-white border-4 border-dashed rounded-xl items-center text-start">
-                    <p class="p-4 font-bold text-[1.5rem] text-pastelRed pointer-events-none select-none">
-                        Particpatory IT Design,<br>
-                        University of Kassel,<br>
-                        Germany</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
     <div id="cfp" class="max-w-5xl mx-auto min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl p-12 text-left space-y-4">
+        <h1 class="text-xl">Speculative AI Futures Workshop</h1>
         <p>
-            In their essay "The Carrier Bag Theory of Fiction", Ursula K. Le Guin (1986) critiques how stories of science fiction and technology are predominantly told as stories of heroic undertakings, not as stories about everyday life, advocating to shift our focus to the mundane and worldly aspects of life.
+            Generative artificial intelligence (genAI) could be considered a hot topic of scholarly practices: Some researchers are turning to editorials, opinion pieces, and articles to either denounce or encourage the use of genAI in knowledge production processes (e.g. Jowsey et al. 2025, Nguyen and Welch 2025, Anis and French 2023). Meanwhile, the promise of increased efficiency may create a sense of necessity around adopting these tools for everyone else (Bin-Nashwan et al. 2023). As general application tools, the use of genAI is already shaping research processes, the peer review system, and higher education (Barros, Prasad, and Sliwa 2023).
         </p>
         <p>
-            Based on Le Guin's call for more stories of everyday life, we invite participants to engage with their own research and their discipline through the lens of The Carrier Bag Theory of Fiction. By focusing on the narrative aspects of HCI research practices we won't merely look at the presentation of research results but also on how general narratives inform the design of technology and how research is approached, as well as problem definitions and technology development in general. This means mapping story aspects of computing narratives and related concepts to ask what assumptions, socio-technical implications, and material consequences they bring with them.
+            With this workshop, we want to welcome HCI researchers and educators for a discussion and reflection on two areas of genAI impact in academia: Research practices and teaching. Drawing on speculative design and fabulation methods, we invite participants to imagine diverse futures for these areas of academia. Through reflection and design exercises we want to enable participants to discuss questions such as: <em>At which points might academia resist or embrace generative artificial intelligence? How might processes of scholarly production be shaped by the introduction of this technology? What are the roles and responsibilities of researchers and educators in these scenarios?</em>
         </p>
         <p>
-            Drawing on methods from critical fabulation and speculative design, we aim to enable participants to critically reflect on their current research practices and how they are shaped by dominant narratives of their field, and collectively work on shifting perspectives on participants' own research, speculating on how else their stories could be told. The workshop contains a mixture of input, narrative analysis, reflection, and speculative design activities.
+            We call on interested participants to submit a short position paper of 1000–1500 words, reflecting on their own experiences with genAI in their teaching or research practices. Choosing one focus area — research or education, participants should consider the following questions in their submission:
         </p>
-        <p>Participants are asked to prepare for the workshop in the following ways:</p>
         <ul class="list-disc pl-6 space-y-2">
-            <li> Reading Ursula K. Le Guin's essay "The Carrier Bag Theory of Fiction" as the basis for the workshop</li>
-            <li> Submitting a position paper with a personal reflection on the narratives within their own disciplinary home (more details below)</li>
-            <li> Bringing a piece of their own research (paper, proposal, presentation slides, etc.) as a use case for a critical fabulation exercise</li>
+            <li>How are your own theoretical, methodological or pedagogical approaches currently impacted by genAI?</li>
+            <li>Did you observe changes in your own research / teaching practices? How have they changed?</li>
+            <li>What motivates you to engage with impact of genAI on research / teaching practices?</li>
+            <li>What would you like to do differently? How would you like to change your own practices or the approaches in your field?</li>
         </ul>
         <p>
-            We call on potential participants to share a short position paper (1000–1500 words) to engage with their research and disciplinary positioning through a story-telling perspective. Participants should reflect on the narratives involved in their research, and on the dominant narrative lines that shape their specific field of study, method or technology in question. Overall, the position paper should address the following questions:
-        </p>
-        <ol class="list-decimal pl-6 space-y-2">
-            <li> What are dominant or recurring narrative positions, elements, or lines that you encounter during your engagement with the field?</li>
-            <li> How is your technology artifact repeatedly presented in your field? In your research but also in research of others?</li>
-            <li> What motivates you to engage with the narrative aspects of your research? How do narratives influence your research and shape how you approach your research?</li>
-            <li> What would you like to be done differently? Where do you see narrative aspects that can be improved, e.g. the way a certain perspective is presented?</li>
-        </ol>
-        <p>
-            We want to specifically encourage early-career researchers with an interest in addressing computing from a post-disciplinary perspective, who want to re-assess their research endeavours from a narrative perspective, to participate in this workshop. Still, this call for participation is open to all HCI researchers interested in the stories surrounding their own work and technology in general.
-        </p>
-        <p>
-            Position papers should be submitted via email until <strong>DEADLINE</strong>. The organising team will lightly review the position papers and choose participants based on their motivation for applying, as well as the fit of their research interests as laid out in the position paper and reflection. Potential participants will be notified by <strong>SET DATE</strong>.
-        </p>
-        <p>
-            Please note that the position papers function as personal reflection and selection modality and will not be published.
+            This call for participation is open for all HCI researchers and educators, interested in exploring (im)possible futures and speculative practices surrounding genAI technology in their work. Position papers should be submitted via email until <strong>DEADLINE</strong>. All submissions go through a light review by the organising team, who make a selection based on the thematic fit of the submitted papers. Potential participants will be notified via email by <strong>DEADLINE</strong>.
         </p>
     </div>
 </main>
